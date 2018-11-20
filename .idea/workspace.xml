@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="030e613d-7eb6-4b8a-9254-d66d83133333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2.js" beforeDir="false" afterPath="$PROJECT_DIR$/db2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db3.js" beforeDir="false" afterPath="$PROJECT_DIR$/db3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-three.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-three.js" afterDir="false" />
     </list>
@@ -21,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+              <caret line="186" column="73" selection-start-line="186" selection-start-column="73" selection-end-line="186" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -56,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-three.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
+            <state relative-caret-position="128">
+              <caret line="362" column="26" selection-start-line="362" selection-start-column="26" selection-end-line="362" selection-end-column="26" />
               <folding>
                 <element signature="e#1166#1494#0" />
                 <element signature="e#1530#1726#0" />
@@ -65,21 +68,49 @@
                 <element signature="e#1902#2031#0" />
                 <element signature="e#2060#2571#0" />
                 <element signature="e#2612#3094#0" />
+                <element signature="e#3448#3456#0" />
                 <element signature="e#3451#3755#0" />
+                <element signature="e#3778#4579#0" />
+                <element signature="e#4603#5407#0" />
+                <element signature="e#5430#5956#0" />
                 <element signature="e#5980#6177#0" />
                 <element signature="e#6198#6253#0" />
                 <element signature="e#6273#7728#0" />
-                <element signature="e#7753#8154#0" />
                 <element signature="e#8177#9795#0" />
                 <element signature="e#9827#11667#0" />
-                <element signature="e#11691#12113#0" />
                 <element signature="e#12135#13579#0" />
                 <element signature="e#13610#15012#0" />
-                <element signature="e#15036#15472#0" />
                 <element signature="e#15494#16960#0" />
                 <element signature="e#16991#18160#0" />
                 <element signature="e#18194#18858#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -120,6 +151,8 @@
       <find>+</find>
       <find>myDataSphere</find>
       <find>console.log</find>
+      <find>radius</find>
+      <find>radius =</find>
     </findStrings>
     <replaceStrings>
       <replace>height</replace>
@@ -147,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/node_modules/isom-layout/src/index.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/node_modules/isom-layout/dist/som.es6.js" />
@@ -159,6 +191,9 @@
         <option value="$PROJECT_DIR$/sphere-2.js" />
         <option value="$PROJECT_DIR$/3d.js" />
         <option value="$PROJECT_DIR$/node_modules/isom-layout-3d/dist/som.js" />
+        <option value="$PROJECT_DIR$/db2.js" />
+        <option value="$PROJECT_DIR$/db3.js" />
+        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main-three.js" />
       </list>
@@ -187,6 +222,19 @@
               <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="isomTest" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-sphere" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-sphere" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,12 +281,12 @@
       <workItem from="1542658287298" duration="769000" />
       <workItem from="1542713197387" duration="6707000" />
       <workItem from="1542725312174" duration="1891000" />
-      <workItem from="1542729551751" duration="1605000" />
+      <workItem from="1542729551751" duration="4912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26823000" />
+    <option name="totallyTimeSpent" value="30130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -315,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2d-2.js" />
     <entry file="file://$PROJECT_DIR$/3d-2.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -337,13 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-sphere/dist/som.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -368,17 +402,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-sphere/dist/som.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+          <caret line="186" column="73" selection-start-line="186" selection-start-column="73" selection-end-line="186" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
+        <state relative-caret-position="128">
+          <caret line="362" column="26" selection-start-line="362" selection-start-column="26" selection-end-line="362" selection-end-column="26" />
           <folding>
             <element signature="e#1166#1494#0" />
             <element signature="e#1530#1726#0" />
@@ -386,17 +448,18 @@
             <element signature="e#1902#2031#0" />
             <element signature="e#2060#2571#0" />
             <element signature="e#2612#3094#0" />
+            <element signature="e#3448#3456#0" />
             <element signature="e#3451#3755#0" />
+            <element signature="e#3778#4579#0" />
+            <element signature="e#4603#5407#0" />
+            <element signature="e#5430#5956#0" />
             <element signature="e#5980#6177#0" />
             <element signature="e#6198#6253#0" />
             <element signature="e#6273#7728#0" />
-            <element signature="e#7753#8154#0" />
             <element signature="e#8177#9795#0" />
             <element signature="e#9827#11667#0" />
-            <element signature="e#11691#12113#0" />
             <element signature="e#12135#13579#0" />
             <element signature="e#13610#15012#0" />
-            <element signature="e#15036#15472#0" />
             <element signature="e#15494#16960#0" />
             <element signature="e#16991#18160#0" />
             <element signature="e#18194#18858#0" />

@@ -11,14 +11,41 @@ let linesMeshShape;
 let linesMeshSphere;
 let linesMeshPlane;
 
-const myDataShape = copyData3D({...data});
-const myDataSphere = copyData3D({...data});
-const myDataPlane = copyData3D({...data});
+const allDatas = [
+    data1,
+    data2,
+    data3
+];
 
-const particles = myDataShape.nodes.length;
-const numLines = myDataShape.edges.length;
+const selector = document.getElementById('select-db');
+selector.onchange = (opt) => {
+    optionSelected = Number(opt.target.value);
+    resetDB();
+};
 
-const radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 2));
+const finished = [false, false, false];
+
+let optionSelected = Number(selector.value);
+
+if (optionSelected > 0) {
+    document.getElementById('subject-legend').hidden = false;
+    document.getElementById('document-legend').hidden = false;
+} else {
+    document.getElementById('subject-legend').hidden = true;
+    document.getElementById('document-legend').hidden = true;
+}
+
+let checkbox = document.getElementById('checkbox');
+checkbox.disabled = true;
+
+let myDataShape = copyData3D({...allDatas[optionSelected]});
+let myDataSphere = copyData3D({...allDatas[optionSelected]});
+let myDataPlane = copyData3D({...allDatas[optionSelected]});
+
+let particles = myDataShape.nodes.length;
+let numLines = myDataShape.edges.length;
+
+let radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 2));
 
 const myColors = [
     [255, 255, 0],
@@ -143,7 +170,36 @@ const nodeMaterial = new THREE.RawShaderMaterial( {
 init();
 animate();
 
+function resetDB() {
+
+    if (optionSelected > 0) {
+        document.getElementById('subject-legend').hidden = false;
+        document.getElementById('document-legend').hidden = false;
+    } else {
+        document.getElementById('subject-legend').hidden = true;
+        document.getElementById('document-legend').hidden = true;
+    }
+
+    myDataSphere = copyData3D({...allDatas[optionSelected]});
+    myDataShape = copyData3D({...allDatas[optionSelected]});
+    myDataPlane = copyData3D({...allDatas[optionSelected]});
+
+    particles = myDataShape.nodes.length;
+    numLines = myDataShape.edges.length;
+
+    radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 2));
+
+    selector.disabled = true;
+    checkbox.disabled = true;
+
+    startShape();
+    startPlane();
+    startSphere();
+}
+
 function init() {
+
+    selector.disabled = true;
 
     // SHAPE (LEFT)
     initShape();
@@ -295,9 +351,16 @@ function startSphere() {
         somS(myDataSphere, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: () => {},
-            iterationsPerUpdate: 5,
-            updateDelay: 16.666666,
+            onEnd: () => {
+                finished[0] = true;
+                if (finished.filter(x => !!x).length > 0) {
+                    enableSelector(true);
+                } else {
+                    enableSelector(false);
+                }
+            },
+            iterationsPerUpdate: checkbox.checked ? 10 : 5,
+            updateDelay: 0,
             onUpdate: getSphere
         });
     }, 1000);
@@ -409,9 +472,16 @@ function startPlane() {
         this.som(myDataPlane, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: () => {},
-            iterationsPerUpdate: 5,
-            updateDelay: 16.666666,
+            onEnd: () => {
+                finished[1] = true;
+                if (finished.filter(x => !!x).length > 0) {
+                    enableSelector(true);
+                } else {
+                    enableSelector(false);
+                }
+            },
+            iterationsPerUpdate: checkbox.checked ? 10 : 5,
+            updateDelay: 0,
             onUpdate: getPlane
         });
     }, 1000);
@@ -512,9 +582,16 @@ function startShape() {
         som3D(myDataShape, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: () => {},
-            iterationsPerUpdate: 5,
-            updateDelay: 16.666666,
+            onEnd: () => {
+                finished[2] = true;
+                if (finished.filter(x => !!x).length > 0) {
+                    enableSelector(true);
+                } else {
+                    enableSelector(false);
+                }
+            },
+            iterationsPerUpdate: checkbox.checked ? 10 : 5,
+            updateDelay: 0,
             onUpdate: getShape
         });
     }, 1000);
@@ -624,4 +701,9 @@ function copyData3D(dataToCopy) {
     }
 
     return {edges: edgesRet, nodes: nodesRet};
+}
+
+function enableSelector(enable) {
+    selector.disabled = !enable;
+    checkbox.disabled = !enable;
 }

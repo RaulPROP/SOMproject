@@ -25,6 +25,8 @@
     <script type="text/javascript" src="./node_modules/isom-layout-sphere/dist/som.js"></script>
 
     <!-- My Database -->
+    <script type="text/javascript" src="./db.js"></script>
+    <script type="text/javascript" src="./db2.js"></script>
     <script type="text/javascript" src="./db3.js"></script>
 
     <style type="text/css">
@@ -164,19 +166,35 @@
         .document {
             background-color: rgb(0, 0, 255);
         }
+        .checkbox {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
     </style>
 </head>
 <body class="max-space split-grid" id="content">
 
     <div class="legend">
+
+        <select name="options" id="select-db" disabled>
+            <option value="0" selected>Les Misérables</option>
+            <option value="1">Super Small</option>
+            <option value="2">Some Files</option>
+        </select>
+
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox" checked disabled> Faster
+        </div>
+
         <div class="normal">Scroll: Zoom</div>
         <div class="normal">Left-Click: Rotate</div>
         <div class="normal">Right-Click: Move</div>
         <div class=""></div>
         <div class=""></div>
         <div class=""></div>
-        <div class="subject">SUBJECT</div>
-        <div class="document">DOCUMENT</div>
+        <div class="subject" id="subject-legend">SUBJECT</div>
+        <div class="document" id="document-legend">DOCUMENT</div>
     </div>
 
     <canvas id="c"></canvas>

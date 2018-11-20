@@ -1,4 +1,4 @@
-var data = {
+var data1 = {
     "nodes": [
         {"id": "Myriel", "group": 1},
         {"id": "Napoleon", "group": 1},
