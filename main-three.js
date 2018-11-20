@@ -169,7 +169,7 @@ function initShape() {
     controls.minDistance = 1050;
     controls.maxDistance = 1050;
     controls.enablePan = false;
-    controls.enableZoom = false;
+    controls.enableZoom = true;
     scene.userData.controls = controls;
 
     scenes.push(scene);
@@ -196,7 +196,7 @@ function initSphere() {
     controls.minDistance = 1050;
     controls.maxDistance = 1050;
     controls.enablePan = false;
-    controls.enableZoom = false;
+    controls.enableZoom = true;
     scene.userData.controls = controls;
 
     scenes.push(scene);
