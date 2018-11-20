@@ -38,6 +38,14 @@ const canvas = document.getElementById( "c" );
 const template = document.getElementById( "template" ).text;
 const content = document.getElementById( "content" );
 
+const pxRatio = window.devicePixelRatio;
+const h = canvas.clientHeight;
+const w = canvas.clientWidth / 3;
+const W = w * pxRatio;
+const H = h * pxRatio;
+const Rmax = pxRatio;
+const Z = Math.max(W / 2 + Rmax, H / 2 + Rmax);
+
 const width = canvas.clientWidth / 2;
 const height = canvas.clientHeight;
 
@@ -96,7 +104,7 @@ const vertexShaderNode = [
     '    vColor = color;',
     '    gl_Position = projectionMatrix * modelViewMatrix * vec4(position.xyz , 1.0);',
     '',
-    '    gl_PointSize = 30.0 * (300.0 / length(gl_Position.xyz));',
+    '    gl_PointSize = (' + Rmax.toString() + '.0 * 30.0) * (300.0 / length(gl_Position.xyz));',
     '',
     '  }'
 ].join('\n');
@@ -274,12 +282,6 @@ function render() {
 }
 
 function startSphere() {
-    const pxRatio = window.devicePixelRatio;
-    const h = canvas.clientHeight;
-    const w = canvas.clientWidth / 3;
-    const W = w * pxRatio;
-    const H = h * pxRatio;
-    const Rmax = 5 * pxRatio;
 
     const bounds = [0, 0, Math.PI, Math.PI * 2];
 
@@ -289,9 +291,7 @@ function startSphere() {
         somS(myDataSphere, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: function () {
-                console.log('sphere done');
-            },
+            onEnd: () => {},
             iterationsPerUpdate: 5,
             updateDelay: 16.666666,
             onUpdate: getSphere
@@ -396,16 +396,8 @@ function getSphereRelations() {
 }
 
 function startPlane() {
-    const pxRatio = window.devicePixelRatio;
-    const h = canvas.clientHeight;
-    const w = canvas.clientWidth / 3;
-    const W = w * pxRatio;
-    const H = h * pxRatio;
-    const Rmax = pxRatio;
 
-    const Z = Math.max(W / 2 + Rmax, H / 2 + Rmax);
-
-    const bounds = [-W / 2 + Rmax, -H / 2 + Rmax, -Z, W / 2 - Rmax, H / 2 - Rmax, Z];
+    const bounds = [-W / 2 + Rmax, -H / 2 + Rmax, W / 2 - Rmax, H / 2 - Rmax];
 
     som.randomize(myDataPlane.nodes, bounds);
 
@@ -413,9 +405,7 @@ function startPlane() {
         this.som(myDataPlane, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: function () {
-                console.log('plane done');
-            },
+            onEnd: () => {},
             iterationsPerUpdate: 5,
             updateDelay: 16.666666,
             onUpdate: getPlane
@@ -509,14 +499,6 @@ function getPlaneRelations() {
 }
 
 function startShape() {
-    const pxRatio = window.devicePixelRatio;
-    const h = canvas.clientHeight;
-    const w = canvas.clientWidth / 3;
-    const W = w * pxRatio;
-    const H = h * pxRatio;
-    const Rmax = 5 * pxRatio;
-
-    const Z = Math.max(W / 2 + Rmax, H / 2 + Rmax);
 
     const bounds = [-W / 2 + Rmax, -H / 2 + Rmax, -Z, W / 2 - Rmax, H / 2 - Rmax, Z];
 
@@ -526,9 +508,7 @@ function startShape() {
         som3D(myDataShape, {
             dontRandomize: true,
             bounds: bounds,
-            onEnd: function () {
-                console.log('shape done');
-            },
+            onEnd: () => {},
             iterationsPerUpdate: 5,
             updateDelay: 16.666666,
             onUpdate: getShape

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030e613d-7eb6-4b8a-9254-d66d83133333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-three.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-three.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -54,22 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-three.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+            <state relative-caret-position="397">
+              <caret line="510" column="28" selection-start-line="510" selection-start-column="28" selection-end-line="510" selection-end-column="28" />
               <folding>
                 <element signature="e#2357#2839#0" />
+                <element signature="n#!!block;n#init#0" />
                 <element signature="n#!!block;n#initShape#0" />
-                <element signature="n#!!block;n#initPlane#0" />
+                <element signature="n#!!block;n#initSphere#0" />
                 <element signature="n#!!block;n#updateSize#0" />
                 <element signature="n#!!block;n#animate#0" />
                 <element signature="n#!!block;n#render#0" />
-                <element signature="n#!!block;n#startSphere#0" />
                 <element signature="n#!!block;n#getSphere#0" />
                 <element signature="n#!!block;n#getSphereRelations#0" />
-                <element signature="n#!!block;n#startPlane#0" />
                 <element signature="n#!!block;n#getPlane#0" />
                 <element signature="n#!!block;n#getPlaneRelations#0" />
-                <element signature="n#!!block;n#startShape#0" />
                 <element signature="n#!!block;n#getShape#0" />
                 <element signature="n#!!block;n#getShapeRelations#0" />
                 <element signature="n#!!block;n#copyData3D#0" />
@@ -252,12 +251,12 @@
       <workItem from="1542628060578" duration="15851000" />
       <workItem from="1542658287298" duration="769000" />
       <workItem from="1542713197387" duration="6707000" />
-      <workItem from="1542725312174" duration="68000" />
+      <workItem from="1542725312174" duration="1671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23395000" />
+    <option name="totallyTimeSpent" value="24998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -396,22 +395,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+        <state relative-caret-position="397">
+          <caret line="510" column="28" selection-start-line="510" selection-start-column="28" selection-end-line="510" selection-end-column="28" />
           <folding>
             <element signature="e#2357#2839#0" />
+            <element signature="n#!!block;n#init#0" />
             <element signature="n#!!block;n#initShape#0" />
-            <element signature="n#!!block;n#initPlane#0" />
+            <element signature="n#!!block;n#initSphere#0" />
             <element signature="n#!!block;n#updateSize#0" />
             <element signature="n#!!block;n#animate#0" />
             <element signature="n#!!block;n#render#0" />
-            <element signature="n#!!block;n#startSphere#0" />
             <element signature="n#!!block;n#getSphere#0" />
             <element signature="n#!!block;n#getSphereRelations#0" />
-            <element signature="n#!!block;n#startPlane#0" />
             <element signature="n#!!block;n#getPlane#0" />
             <element signature="n#!!block;n#getPlaneRelations#0" />
-            <element signature="n#!!block;n#startShape#0" />
             <element signature="n#!!block;n#getShape#0" />
             <element signature="n#!!block;n#getShapeRelations#0" />
             <element signature="n#!!block;n#copyData3D#0" />
