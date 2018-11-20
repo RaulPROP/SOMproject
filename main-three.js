@@ -18,7 +18,7 @@ const myDataPlane = copyData3D({...data});
 const particles = myDataShape.nodes.length;
 const numLines = myDataShape.edges.length;
 
-const radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 4));
+const radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 2));
 
 const myColors = [
     [255, 255, 0],
@@ -169,7 +169,7 @@ function initShape() {
     content.appendChild( element );
 
     const camera = new THREE.PerspectiveCamera(60, width / height, 1, 10000);
-    camera.position.z = radius + 400;
+    camera.position.z = Z + 400;
     camera.lookAt(scene.position);
     scene.userData.camera = camera;
 

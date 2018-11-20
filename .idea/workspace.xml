@@ -17,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-three.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="247">
+              <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
               <folding>
                 <element signature="e#1166#1494#0" />
                 <element signature="e#1530#1726#0" />
@@ -66,7 +66,6 @@
                 <element signature="e#2060#2571#0" />
                 <element signature="e#2612#3094#0" />
                 <element signature="e#3451#3755#0" />
-                <element signature="e#4603#5407#0" />
                 <element signature="e#5980#6177#0" />
                 <element signature="e#6198#6253#0" />
                 <element signature="e#6273#7728#0" />
@@ -160,8 +159,8 @@
         <option value="$PROJECT_DIR$/sphere-2.js" />
         <option value="$PROJECT_DIR$/3d.js" />
         <option value="$PROJECT_DIR$/node_modules/isom-layout-3d/dist/som.js" />
-        <option value="$PROJECT_DIR$/main-three.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main-three.js" />
       </list>
     </option>
   </component>
@@ -234,12 +233,12 @@
       <workItem from="1542658287298" duration="769000" />
       <workItem from="1542713197387" duration="6707000" />
       <workItem from="1542725312174" duration="1891000" />
-      <workItem from="1542729551751" duration="925000" />
+      <workItem from="1542729551751" duration="1605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26143000" />
+    <option name="totallyTimeSpent" value="26823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -369,10 +368,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
           <folding>
             <element signature="e#1166#1494#0" />
             <element signature="e#1530#1726#0" />
@@ -381,7 +387,6 @@
             <element signature="e#2060#2571#0" />
             <element signature="e#2612#3094#0" />
             <element signature="e#3451#3755#0" />
-            <element signature="e#4603#5407#0" />
             <element signature="e#5980#6177#0" />
             <element signature="e#6198#6253#0" />
             <element signature="e#6273#7728#0" />
@@ -396,13 +401,6 @@
             <element signature="e#16991#18160#0" />
             <element signature="e#18194#18858#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
         </state>
       </provider>
     </entry>
