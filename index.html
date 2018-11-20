@@ -10,7 +10,7 @@
     <!-- THREEJS -->
     <script src="https://cdn.rawgit.com/mrdoob/three.js/master/build/three.min.js"></script>
     <script src="https://cdn.rawgit.com/mrdoob/three.js/dev/examples/js/controls/TrackballControls.js"></script>
-    <script src="https://cdn.rawgit.com/mrdoob/three.js/dev/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.rawgit.com/mrdoob/three.js/dev/examples/js/controls/OrbitControls.js"></script>
 
     <!-- D3 Library -->
     <script type="text/javascript" src="https://unpkg.com/d3@4.7.3"></script>
@@ -25,7 +25,7 @@
     <script type="text/javascript" src="./node_modules/isom-layout-sphere/dist/som.js"></script>
 
     <!-- My Database -->
-    <script type="text/javascript" src="./db.js"></script>
+    <script type="text/javascript" src="./db3.js"></script>
 
     <style type="text/css">
         html, body {
@@ -136,26 +136,48 @@
             width: 100%;
             height: 100%;
         }
+        .legend {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: 1000;
+            width: 100%;
+            max-width: 100%;
+
+            border: 3px solid black;
+
+            background-color: white;
+
+            padding: 10px;
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .subject {
+            background-color: rgb(255, 255, 0);
+        }
+        .document {
+            background-color: rgb(0, 0, 255);
+        }
     </style>
 </head>
 <body class="max-space split-grid" id="content">
-<!--
 
-    <div class="canvas-title left dark">2D</div>
-    <canvas id="two"  class="small-space"></canvas>
-    
-    <div class="canvas-title right dark">3D</div>
-    <canvas id="three"  class="small-space"></canvas>
-
-    &lt;!&ndash; 2D Script &ndash;&gt;
-    <script type="text/javascript" src="./2d.js"></script>
-
-    &lt;!&ndash; SHAPE SCRIPT &ndash;&gt;
-    &lt;!&ndash;<script type="text/javascript" src="./3d.js"></script>&ndash;&gt;
-
-    &lt;!&ndash; SPHERE SCRIPT &ndash;&gt;
-    <script type="text/javascript" src="./sphere.js"></script>
--->
+    <div class="legend">
+        <div class="normal">Scroll: Zoom</div>
+        <div class="normal">Left-Click: Rotate</div>
+        <div class="normal">Right-Click: Move</div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class="subject">SUBJECT</div>
+        <div class="document">DOCUMENT</div>
+    </div>
 
     <canvas id="c"></canvas>
 

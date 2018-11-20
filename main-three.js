@@ -21,7 +21,7 @@ const numLines = myDataShape.edges.length;
 const radius = Math.min(1000, Math.max(100, Math.sqrt(particles * Math.PI * 20) * 4));
 
 const myColors = [
-    [0, 0, 120],
+    [255, 255, 0],
     [0, 0, 255],
     [0, 120, 0],
     [0, 120, 120],
@@ -169,14 +169,13 @@ function initShape() {
     content.appendChild( element );
 
     const camera = new THREE.PerspectiveCamera(60, width / height, 1, 10000);
-    camera.position.z = 1050;
+    camera.position.z = radius + 400;
     camera.lookAt(scene.position);
     scene.userData.camera = camera;
 
     const controls =  new THREE.OrbitControls(scene.userData.camera, scene.userData.element);
-    controls.minDistance = 1050;
-    controls.maxDistance = 1050;
-    controls.enablePan = false;
+    controls.enablePan = true;
+    controls.zoomSpeed = 1.2;
     controls.enableZoom = true;
     scene.userData.controls = controls;
 
@@ -196,14 +195,14 @@ function initSphere() {
     content.appendChild( element );
 
     const camera = new THREE.PerspectiveCamera(60, width / height, 1, 10000);
-    camera.position.z = 1050;
+    camera.position.z = radius + 400;
     camera.lookAt(scene.position);
+    camera.zoomSpeed = 1.2;
+    camera.enableZoom = true;
     scene.userData.camera = camera;
 
     const controls =  new THREE.OrbitControls(scene.userData.camera, scene.userData.element);
-    controls.minDistance = 1050;
-    controls.maxDistance = 1050;
-    controls.enablePan = false;
+    controls.zoomSpeed = 1.2;
     controls.enableZoom = true;
     scene.userData.controls = controls;
 
@@ -226,6 +225,11 @@ function initPlane() {
     camera.position.z = 1050;
     camera.lookAt(scene.position);
     scene.userData.camera = camera;
+
+    const controls =  new THREE.OrbitControls(scene.userData.camera, scene.userData.element);
+    controls.zoomSpeed = 1.2;
+    controls.enableZoom = true;
+    scene.userData.controls = controls;
 
     scenes.push(scene);
 
