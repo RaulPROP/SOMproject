@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="030e613d-7eb6-4b8a-9254-d66d83133333" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3d.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="293" column="25" lean-forward="true" selection-start-line="223" selection-start-column="4" selection-end-line="293" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sphere.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="106" column="4" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2d.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main-three.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="403" column="17" selection-start-line="403" selection-start-column="17" selection-end-line="403" selection-end-column="17" />
+              <folding>
+                <element signature="e#179#389#0" />
+                <element signature="e#1361#1601#0" />
+                <element signature="e#1636#1739#0" />
+                <element signature="e#1797#1946#0" />
+                <element signature="e#1835#2366#0" />
+                <element signature="e#2357#2839#0" />
+                <element signature="e#3073#3181#0" />
+                <element signature="e#3088#3209#0" />
+                <element signature="e#2146#3202#0" />
+                <element signature="n#!!block;n#initSphere#0" />
+                <element signature="n#!!block;n#updateSize#0" />
+                <element signature="n#!!block;n#animate#0" />
+                <element signature="n#!!block;n#render#0" />
+                <element signature="n#!!block;n#startShape#0" />
+                <element signature="n#!!block;n#getShape#0" />
+                <element signature="n#!!block;n#getSphereRelations#0" />
+                <element signature="n#!!block;n#getPlane#0" />
+                <element signature="n#!!block;n#getPlaneRelations#0" />
+                <element signature="n#!!block;n#startShape#1" />
+                <element signature="n#!!block;n#getShape#0" />
+                <element signature="n#!!block;n#getShapeRelations#0" />
+                <element signature="n#!!block;n#copyData3D#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>width</find>
+      <find>som(</find>
+      <find>var</find>
+      <find>som</find>
+      <find>render(</find>
+      <find>data</find>
+      <find>colors[</find>
+      <find>third-space</find>
+      <find>som3D</find>
+      <find>som3d</find>
+      <find>numLines</find>
+      <find>myColors</find>
+      <find>.z</find>
+      <find>source</find>
+      <find>angle</find>
+      <find>camera_s</find>
+      <find>scene</find>
+      <find>scene.children[</find>
+      <find>myDataShape</find>
+      <find>myData_s</find>
+      <find>myData</find>
+      <find>scenes[1]</find>
+      <find>+</find>
+      <find>myDataSphere</find>
+      <find>console.log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>height</replace>
+      <replace>const</replace>
+      <replace>som</replace>
+      <replace>my_som</replace>
+      <replace>myData</replace>
+      <replace>small-space</replace>
+      <replace>somS</replace>
+      <replace>myData_s</replace>
+      <replace>numLines_s</replace>
+      <replace>myColors_s</replace>
+      <replace>target</replace>
+      <replace>target_angle</replace>
+      <replace>myDataSphere</replace>
+      <replace>myDataShape</replace>
+      <replace>scenes[2]</replace>
+      <replace>,</replace>
+      <replace>myDataPlane</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/node_modules/isom-layout/src/index.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/isom-layout/dist/som.es6.js" />
+        <option value="$PROJECT_DIR$/node_modules/isom-layout/dist/som.js" />
+        <option value="$PROJECT_DIR$/2d.js" />
+        <option value="$PROJECT_DIR$/node_modules/isom-layout-sphere/dist/som.js" />
+        <option value="$PROJECT_DIR$/sphere.js" />
+        <option value="$PROJECT_DIR$/2d-2.js" />
+        <option value="$PROJECT_DIR$/sphere-2.js" />
+        <option value="$PROJECT_DIR$/3d.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/node_modules/isom-layout-3d/dist/som.js" />
+        <option value="$PROJECT_DIR$/main-three.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="318" />
+    <option name="y" value="24" />
+    <option name="width" value="683" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-3d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-3d" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-sphere" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isomTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isomTest" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="isom-layout-sphere" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="030e613d-7eb6-4b8a-9254-d66d83133333" name="Default Changelist" comment="" />
+      <created>1542628059342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542628059342</updated>
+      <workItem from="1542628060578" duration="15851000" />
+      <workItem from="1542658287298" duration="769000" />
+      <workItem from="1542713197387" duration="6707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18466121" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2973" column="4" selection-start-line="2973" selection-start-column="4" selection-end-line="2973" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout/dist/som.es6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-3d/dist/som.es6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-sphere/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1001" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-3d/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout/dist/som.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d-2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sphere-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="71" column="63" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="71" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sphere.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="106" column="4" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="293" column="25" lean-forward="true" selection-start-line="223" selection-start-column="4" selection-end-line="293" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-3d/dist/som.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isom-layout-sphere/dist/som.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="403" column="17" selection-start-line="403" selection-start-column="17" selection-end-line="403" selection-end-column="17" />
+          <folding>
+            <element signature="e#179#389#0" />
+            <element signature="e#1361#1601#0" />
+            <element signature="e#1636#1739#0" />
+            <element signature="e#1797#1946#0" />
+            <element signature="e#1835#2366#0" />
+            <element signature="e#2357#2839#0" />
+            <element signature="e#3073#3181#0" />
+            <element signature="e#3088#3209#0" />
+            <element signature="e#2146#3202#0" />
+            <element signature="n#!!block;n#initSphere#0" />
+            <element signature="n#!!block;n#updateSize#0" />
+            <element signature="n#!!block;n#animate#0" />
+            <element signature="n#!!block;n#render#0" />
+            <element signature="n#!!block;n#startShape#0" />
+            <element signature="n#!!block;n#getShape#0" />
+            <element signature="n#!!block;n#getSphereRelations#0" />
+            <element signature="n#!!block;n#getPlane#0" />
+            <element signature="n#!!block;n#getPlaneRelations#0" />
+            <element signature="n#!!block;n#startShape#1" />
+            <element signature="n#!!block;n#getShape#0" />
+            <element signature="n#!!block;n#getShapeRelations#0" />
+            <element signature="n#!!block;n#copyData3D#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
